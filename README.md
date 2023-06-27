@@ -7,6 +7,7 @@
 ### Install 
 
 `git clone https://github.com/cagrieser/ReqWeb.git`
+
 `python3 WebReq.py`
 
 Wordlist sadece "Flag.txt" dosyasını okunması üzerine ayarlanmıştır.
